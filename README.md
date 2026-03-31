@@ -1,24 +1,22 @@
 # Global E-commerce: Demand Forecasting & Analytics
 
-## Sobre o Projeto
-Este é um projeto ponta-a-ponta de **Data Science aplicado ao Retalho (B2B/B2C)**. O objetivo foi analisar mais de 100 mil transações de um e-commerce global, extrair insights de negócio através de Análise RFM (Recency, Frequency, Monetary) e criar um modelo preditivo de **Demand Forecasting**.
+## About the Project
+This is an end-to-end **Data Science applied to Retail (B2B/B2C)** project. The goal was to analyze over 100,000 transactions from a global e-commerce platform, extract business insights through RFM (Recency, Frequency, Monetary) Analysis, and build a predictive **Demand Forecasting** model.
 
-## rincipais Descobertas (Business Insights)
-* **O Impacto da Macroeconomia:** Provou-se que indicadores como Inflação e PIB têm uma correlação quase nula com o volume de compra no momento do checkout. O preço unitário é o grande impulsionador.
-* **Prevenção de Churn:** Identificámos um Cliente VIP (Top 5 de faturação) em risco severo de *churn* (sem compras há 268 dias), permitindo ações imediatas de reconquista.
-* **Otimização de Logística:** O modelo preditivo desenvolvido tem uma margem de erro (MAE) de apenas ~8 unidades, permitindo às equipas de armazém evitar ruturas de stock e excesso de inventário.
+## Key Findings (Business Insights)
+* **Macroeconomic Impact:** It was proven that indicators such as Inflation and GDP have an almost zero correlation with the purchasing volume at the time of checkout. Unit price is the primary driver.
+* **Churn Prevention:** We identified a VIP Client (Top 5 in revenue) at severe risk of *churn* (no purchases for 268 days), enabling immediate win-back actions.
+* **Logistics Optimization:** The developed predictive model has an error margin (MAE) of only ~8 units, allowing warehouse teams to prevent stockouts and avoid excess inventory.
 
-## Tecnologias Utilizadas
-* **Linguagem:** Python
-* **Análise e Limpeza:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn
+## Technologies Used
+* **Language:** Python
+* **Analysis and Cleaning:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
 * **Machine Learning:** Scikit-Learn (Random Forest Regressor)
 * **Deployment (Dashboard):** Streamlit
 
-## Como correr o projeto localmente
-1. Clone este repositório.
-2. Instale as dependências: `pip install -r requirements.txt`
-3. Para ver a análise de dados, abra o `ecommerce.ipynb`.
-4. Para simular a Inteligência Artificial na Dashboard, corra no terminal: `streamlit run app.py`
-
-
+## How to run the project locally
+1. Clone this repository.
+2. Install the dependencies: `pip install -r requirements.txt`
+3. To view the data analysis, open `ecommerce.ipynb`.
+4. To simulate the Artificial Intelligence on the Dashboard, run in the terminal: `streamlit run app.py`
